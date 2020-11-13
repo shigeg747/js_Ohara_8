@@ -1,0 +1,103 @@
+/* 基本設定 */
+
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 50px;
+}
+
+/* window */
+.window{
+    max-width: 580px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.hand{
+    width: 200px;
+    height: 200px;
+    border: solid 20px;
+    border-color: #000;
+    margin-bottom: 20px;
+    border-radius: 15%;
+}
+
+#comhand{
+    transform: scale(-1,1);
+}
+
+
+.name{
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.name2frame{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../img/micky_a.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+}
+
+.name2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin: auto;
+}
+
+.text_centre{
+    text-align: center;
+}
+
+/* メッセージ */
+.msg{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom:30px;
+    align-items: center;
+}
+
+/* ボタン */
+.btn__content{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.btn__wrapper{
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+.select{
+    display: flex;
+    width: 400px;
+    margin: auto;
+
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin: 0 10px 10px;
+}

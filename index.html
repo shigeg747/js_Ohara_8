@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/janken.css">
+    <title>じゃんけんゲーム</title>
+</head>
+<body>
+    
+<h1 class="title text_centre">じゃんけんPON!!</h1>
+
+
+<div class="window">
+     <!-- 相手の手 -->
+    <div class="window__frame"> 
+        <p id="comhand" class="hand"></p>
+        <p class="name text_centre">相手</p>
+    </div>
+
+    <div class="name2frame">
+        <p class="name2">VS</p>
+    </div>
+
+    <!-- 自分の 手 -->
+    <div class="window__frame">
+        <p id="plyhand" class="hand"></p>
+        <p class="name text_centre">あなた</p>
+    </div>
+</div>
+
+<div>
+    <p id="message" class="msg text_centre"></p>
+</div>
+
+<form name=janken class="btn__content">
+    <div class="btn__wrappe text_centre">
+        <div>
+            <input type="button" onclick="getplyhand(0)" class="btn" value="グ〜だよ">
+            <input type="button" onclick="getplyhand(1)" class="btn" value="チョキだよ">
+            <input type="button" onclick="getplyhand(2)" class="btn" value="パ〜だよ">
+        </div>
+            <input type="button" onclick="handreset()" class="btn" value="リセットだよ">
+    </div>
+</form>
+
+
+
+
+<footer></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <script src="js/janken.js"></script>
+</body>
+</html>
